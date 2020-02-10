@@ -8,6 +8,7 @@
   margin-top: 20px;
   padding-top: 10px;
   //   border: 1px solid red;
+
   h1 {
     font-size: 4em;
     text-align: center;
@@ -26,5 +27,12 @@
     padding: 1%;
     color: @nav-font;
     text-decoration: none;
+  }
+  @media @mobile, @tablet {
+    width: 100%;
+  }
+  @media @mobile, @tablet {
+    justify-content: center;
+    width: 100%;
   }
 }
