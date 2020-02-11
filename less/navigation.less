@@ -1,1 +1,38 @@
 // Navigation code here
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  //   align-items: center;
+  background-color: @nav-bg;
+  margin-top: 20px;
+  padding-top: 10px;
+  //   border: 1px solid red;
+
+  h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+  nav {
+    // width: 50%;
+    display: flex;
+    justify-content: center;
+    // color: ;
+    // border: ;
+    // @nav-font: @river-bend;
+    // @nav-border: @sea-shell;
+  }
+  a {
+    font-size: 1.5em;
+    padding: 1%;
+    color: @nav-font;
+    text-decoration: none;
+  }
+  @media @mobile, @tablet {
+    width: 100%;
+  }
+  @media @mobile, @tablet {
+    justify-content: center;
+    width: 100%;
+  }
+}
